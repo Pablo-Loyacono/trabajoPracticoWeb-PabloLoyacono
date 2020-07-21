@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/482add3106.js" crossorigin="anonymous"></script>
+    <title>PodCast Channel</title>
+</head>
+<body>
+    <input type="checkbox" id="btn-nav" class="checkbox">
+    <header>
+        <div class="header-container">
+            <img class="header-logo" src="assets/logo.svg" alt="logo">
+            <label for="btn-nav" class="btn-label">
+            <span class="header-button"></span>
+            </label>
+        </div>
+    </header>
+    <nav class="menu">
+        <div class="menu-container">
+            <ul>
+                <li><a href="#epid">EPISODIOS</a></li>
+                <li><a href="#nosid">NOSOTROS</a></li>
+                <li><a href="#invid">ENTREVISTAS</a></li>
+                <li><a href="#topid">TÓPICOS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="hello">Hello <span class="world">world</span> pale blue dot<span class="punto">.</span></h1>
+    <h2 class="h2">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios,
+        todos los jueves cada 15 días.</h2>
+    <div class="h3">
+        <a href="http://es.wikipedia.org/wiki/Wikipedia:Portada">
+            <h3>CONOCÉ MÁS</h3>
+        </a>
+    </div>
+    <br>
+    <div class="fondo">
+        <div>
+            <h1 id="epid" class="episodios">Episodios</h1>
+        </div>
+        <div class="spotify">
+            <iframe class="spot" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="584"
+                height="232" allow="encrypted-media"></iframe>
+            <iframe class="spot" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="584"
+                height="232" allow="encrypted-media"></iframe>
+            <iframe class="spot" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="584"
+                height="232" allow="encrypted-media"></iframe>
+            <iframe class="spot" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="584"
+                height="232" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+    
+    <aside class="asidex">
+        <img id="nosid" class="phone" src="images/phone.png" alt="phone">
+        <div class="aside-container">
+        <h2>De dónde<br> venimos</h2>
+        <h3>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+            Universe, are challenged by this point of pale light.
+            <br>
+            <br>
+            Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
+            there is no hint that help will come from elsewhere to save us from ourselves.</h3>
+        </div>
+    </aside>
+    <article>
+        <h3 id="invid" class="inv">Invitadas/os estelares</h3>
+        <div class="img-container">
+            <img class="img6" src="images/Computer.png" alt="computer">
+            <img class="img6" src="images/Katie-Bouman.png" alt="katie bouman">
+            <img class="img6" src="images/Margaret_Hamilton.png" alt="margaret">
+            <img class="img6" src="images/1950.png" alt="1950">
+            <img class="img6" src="images/Computer.png" alt="computer operators">
+            <img class="img6" src="images/susan-kare.png" alt="susan-kare">
+        </div>
+
+        <h3 id="topid" class="temas">Algunos de nuestros temas</h3>
+        <div>
+            <div class="icon-container">
+                <div class="item-container">
+                    <img class="iconos" src="assets/icon1.svg" alt="icono1">
+                    <p id="text1" class="text1">Trabajo remoto</p>
+                </div>
+                <div class="item-container">
+                    <img class="iconos" src="assets/icon2.svg" alt="icono2">
+                    <p id="text2" class="text1">Repensando la programación</p>
+                </div>
+                <div class="item-container">
+                    <img class="iconos" src="assets/icon3.svg" alt="icono3">
+                    <p id="text3" class="text1">Bases del código</p>
+                </div>
+                <div class="item-container">
+                    <img class="iconos" src="assets/icon4.svg" alt="icono4">
+                    <p id="text4" class="text1">Seguridad informática</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <div>
+        <form action="" class=formularioFinal>  
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+              
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail">
+            
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>  
+
+                <label for="date"> Fecha nacimiento:</label>
+                <input type="date" name="cumpleanios" step="1" min="2013-01-01" max="2022-12-31" value="2013-01-01">
+       
+                <p><button type="submit">Enviar formulario</button></p>
+        </form>
+    </div>
+    <section>
+        <h2>¿Querés las últimas novedades?</h2>
+        <a href="#epid">
+            <h3>ESCUCHÁ LOS EPISODIOS</h3>
+        </a>
+    </section>
+    <footer>
+        <p>© 2020— Pablo Agustin Loyácono</p>
+            <div class="icon">
+                <a href="http://www.spotify.com"><i class="fab fa-spotify"></i></a>
+                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="http://www.telegram.com"><i class="fab fa-telegram"></i></a>
+            </div>
+    </footer>
+</body>
+
+</html>
